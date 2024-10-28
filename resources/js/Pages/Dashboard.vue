@@ -28,6 +28,15 @@ import Welcome from '@/Components/Welcome.vue';
                                             <p class="text-sm/relaxed"> 
                                                 php artisan make:migration create_nombre_table
                                             </p>
+                                            <hr class="p-2">
+                                        <h2 class="text-xl font-semibold text-blue-500 dark:text-blue-600">WHERE IN para arrary</h2>
+                                            <p class="text-sm/relaxed"> 
+                                                $sectionIds = $request->input('section_id', []); <br>
+                                                $listStudents = StudentAssistance::whereIn('paralelo', $sectionIds)->get();
+                                            </p>
+                                         <hr class="p-2">
+                                        <h2 class="text-xl font-semibold text-blue-500 dark:text-blue-600">Crear un controlador</h2>
+                                            <p class="text-sm/relaxed">php artisan make:controller nombre-controlador</p>   
                                     </div>
                                 </div>
                             </div>
