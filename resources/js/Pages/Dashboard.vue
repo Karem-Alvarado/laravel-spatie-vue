@@ -10,7 +10,7 @@ import Welcome from '@/Components/Welcome.vue';
                 Dashboard
             </h2>
         </template>
-    <!-- <Welcome/> -->
+        <!-- <Welcome/> -->
         <div class="py-12">
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
                 <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
@@ -26,7 +26,7 @@ import Welcome from '@/Components/Welcome.vue';
                                             <hr class="p-2">
                                         <h2 class="text-xl font-semibold text-blue-500 dark:text-blue-600">Agregar nueva tabla en Laravel</h2>
                                             <p class="text-sm/relaxed"> 
-                                                php artisan make:migration create_nombre_table
+                                                php artisan make:migration create_attendance_dates_table
                                             </p>
                                             <hr class="p-2">
                                         <h2 class="text-xl font-semibold text-blue-500 dark:text-blue-600">WHERE IN para arrary</h2>
@@ -37,6 +37,9 @@ import Welcome from '@/Components/Welcome.vue';
                                          <hr class="p-2">
                                         <h2 class="text-xl font-semibold text-blue-500 dark:text-blue-600">Crear un controlador</h2>
                                             <p class="text-sm/relaxed">php artisan make:controller nombre-controlador</p>
+                                            <hr class="p-2">
+                                        <h2 class="text-xl font-semibold text-blue-500 dark:text-blue-600">Crear campos adicionales a una tabla especifica</h2>
+                                            <p class="text-sm/relaxed">php artisan make:migration add_access_ci_student_to_supports_table --table=supports</p>
                                     </div>
                                 </div>
                             </div>
