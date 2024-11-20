@@ -1,6 +1,7 @@
 <script setup>
 import AppLayout from '@/Layouts/AppLayout.vue';
 import Welcome from '@/Components/Welcome.vue';
+import { BeakerIcon } from '@heroicons/vue/24/solid';
 </script>
 
 <template>
@@ -19,7 +20,7 @@ import Welcome from '@/Components/Welcome.vue';
                             <div class="relative flex items-center gap-6 lg:items-end">
                                 <div id="docs-card-content" class="flex items-start gap-6 lg:flex-col">
                                     <div class="p-6">
-                                        <h2 class="text-xl font-semibold text-black dark:text-blue-600">Instalación Laravel-vue-inertia v11.25</h2>
+                                        <h2 class="text-xl font-semibold text-black dark:text-blue-600">Instalación Laravel-vue-inertia v11.25 https://tailwindcss.com/docs/fill</h2>
                                             <p class="text-sm/relaxed"> 
                                                 composer create-project laravel/laravel nombre-proyecto
                                             </p>
@@ -40,6 +41,10 @@ import Welcome from '@/Components/Welcome.vue';
                                             <hr class="p-2">
                                         <h2 class="text-xl font-semibold text-blue-500 dark:text-blue-600">Crear campos adicionales a una tabla especifica</h2>
                                             <p class="text-sm/relaxed">php artisan make:migration add_access_ci_student_to_supports_table --table=supports</p>
+                                        <hr class="p-2">
+                                        <h2 class="text-xl font-semibold text-blue-500 dark:text-blue-600">Crear archivo para importacion</h2>
+                                        <i class="chevron-double-right"></i><p class="">NombreDeTuImportacion: El nombre de tu clase de importación. <br> --model=NombreDelModelo: (Opcional) Relaciona la importación con un modelo existente.</p>
+                                            <p class="text-sm/relaxed">php artisan make:import NombreDeTuImportacion --model=NombreDelModelo</p>
                                     </div>
                                 </div>
                             </div>
